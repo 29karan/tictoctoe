@@ -1,0 +1,89 @@
+*, *::after, *::before{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-color: #d5c6e0;
+  text-align: center;
+}
+#heading{
+  text-align: center;
+  font-family: monospace;
+  font-size: 70px;
+  height: 10vh;
+  text-shadow: 5px 5px 5px #222222;
+}
+table{
+  margin: auto;
+  margin-top: 0px;
+  border-collapse: collapse;
+  height: 80vh;
+}
+td{
+  border: 15px solid;
+  border-collapse: collapse;
+  border-spacing: 0px;
+  padding: 0px;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  font-size: 50px;
+  padding: 0px;
+}
+table{
+width: 100%;
+/* height: 70vh; */
+}
+.top{
+  border-top: 0px;
+}
+
+.bottom{
+  border-bottom: 0px;
+}
+
+.left{
+  border-left: 0px;
+}
+
+.right{
+  border-right: 0px;
+}
+img{
+  width: 80px;
+  -webkit-filter: drop-shadow(5px 5px 5px #222222);
+  filter: drop-shadow(5px 5px 5px #222222);
+}
+
+main{
+  display: inline-flex;
+  height: 80vh;
+  flex-basis: 100;
+  width: 30%;
+}
+aside{
+  display: block;
+  height: 80vh;
+  padding: 0px;
+  text-align: center;
+  width: 35%;
+}
+
+#heading::after, #heading::before,aside::before, aside::after, main::after, main::before{
+  clear: both;
+}
+
+section{
+  display: inline-flex;
+  width: 100%;
+  flex-direction: row;
+  margin-top: 5vh;
+}
+
+.players h1{
+  font-size: 150px;
+  font-family: monospace;
+  margin-top: 47%;
+  text-shadow: 5px 5px 5px #222222;
+}
